@@ -1,6 +1,3 @@
-# lang
-
-```js
 const { lang, object, subject } = require('./src/lang')
 
 // This is how a language works
@@ -45,4 +42,3 @@ const Nikita = friend('Nikita', 24)
 // Object "Yuriy" says something to a subject "Nikita"
 // You cannot use curse words if your friend is underage
 lang(Yuriy, say('fuck'), Nikita)
-```
